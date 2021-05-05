@@ -11,7 +11,6 @@ for (i = 0; i < 6; i++) {
         numeriDispari.push(numero[i]);
         console.log(numeriDispari);
     } else {
-        
     }
 
 }

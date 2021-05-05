@@ -6,18 +6,21 @@ console.log(nomi);
 var cognomi = ["Rossi", "Pozzi", "Lotti", "Botte"];
 console.log(cognomi);
 /* abbinamento 1 e abbinamento 2 */
-var abbinamento1 = randomItem(nomi);
-console.log(abbinamento1);
 
-var abbinamento2 = randomItem(cognomi);
-console.log(abbinamento2);
 
 /* stampare in pagina la lista di invitati dentro un ul */
 
 for (var i = 0; i < 10; i++) {
-  }
+  var abbinamento1 = randomItem(nomi);
+  console.log(abbinamento1);
+
+  var abbinamento2 = randomItem(cognomi);
+  console.log(abbinamento2);
   
   document.getElementById("invitato").innerHTML = abbinamento1 + " " + abbinamento2;
+  }
+  
+  
 
 /* funzione valida per entrambi */
 function randomItem (nomi) {
