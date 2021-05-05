@@ -16,8 +16,8 @@ for (var i = 0; i < 10; i++) {
 
   var abbinamento2 = randomItem(cognomi);
   console.log(abbinamento2);
-  
-  document.getElementById("invitato").innerHTML = abbinamento1 + " " + abbinamento2;
+
+  document.getElementById("invitato").innerHTML += "<li>" + abbinamento1 + " " + abbinamento2 + "</li>";
   }
   
   
